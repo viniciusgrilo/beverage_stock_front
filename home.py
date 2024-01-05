@@ -35,6 +35,8 @@ for i, elem in enumerate(cols):
         st.subheader(f"{name}")
         st.image(picture, caption="Mock image, not actual product")
         st.write(f"Price: R${price}")
+        st.write(f"Category: {category}")
+        st.write(f"{qtd} in stock")
         #json response
         st.markdown(":green[Full JSON Response:]")
         st.write(beverages[i])
